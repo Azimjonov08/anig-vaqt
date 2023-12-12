@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(20,17,79,1) 0%, rgba(9,9,121,1) 35%, rgba(7,68,80,1) 100%);
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  .time, .date {
+    font-size: 54px;
+  }
+
+  .time {
+    color: rgb(44, 255, 2);
+  }
+  
+  .date {
+    color: #ff03b3;
+
+  }
+  
